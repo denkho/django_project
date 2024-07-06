@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-web-django"
+version = "1"
+description = "Study project"
+authors = ["den_kho"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
